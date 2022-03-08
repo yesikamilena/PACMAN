@@ -17,8 +17,8 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>20</y>
+      <x>50</x>
+      <y>280</y>
       <width>80</width>
       <height>21</height>
      </rect>
@@ -30,8 +30,8 @@
    <widget class="QDial" name="dial">
     <property name="geometry">
      <rect>
-      <x>220</x>
-      <y>40</y>
+      <x>200</x>
+      <y>250</y>
       <width>50</width>
       <height>64</height>
      </rect>
@@ -40,8 +40,8 @@
    <widget class="QLCDNumber" name="lcdNumber">
     <property name="geometry">
      <rect>
-      <x>140</x>
-      <y>120</y>
+      <x>290</x>
+      <y>270</y>
       <width>64</width>
       <height>23</height>
      </rect>
@@ -357,9 +357,9 @@
        <colorrole role="WindowText">
         <brush brushstyle="SolidPattern">
          <color alpha="255">
-          <red>127</red>
-          <green>127</green>
-          <blue>127</blue>
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
          </color>
         </brush>
        </colorrole>
@@ -411,9 +411,9 @@
        <colorrole role="Text">
         <brush brushstyle="SolidPattern">
          <color alpha="255">
-          <red>127</red>
-          <green>127</green>
-          <blue>127</blue>
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
          </color>
         </brush>
        </colorrole>
@@ -429,9 +429,9 @@
        <colorrole role="ButtonText">
         <brush brushstyle="SolidPattern">
          <color alpha="255">
-          <red>127</red>
-          <green>127</green>
-          <blue>127</blue>
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
          </color>
         </brush>
        </colorrole>

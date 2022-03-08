@@ -29,7 +29,7 @@ MainWindow::MainWindow(QWidget *parent)
     connect(this,SIGNAL(aviso(int)),this,SLOT(aumentarPunt()));
 
     timer->start(33);
-
+/*
     //Superiores
     barra=new QGraphicsRectItem(10,10,60,5);
     scene->addItem(barra);
@@ -52,47 +52,56 @@ MainWindow::MainWindow(QWidget *parent)
     scene->addItem(barra2);
     barra2->setPos(0,0);
     barra2->setBrush(Qt::darkBlue);
+*/
+    for(k=0; k<13; k++){     //Filas
+        for(l=0; l<60; l++){    //Columnas
 
-    for(int k=0; k<33; k++){
-        for(int l=0; l<30; l++){
-
-            if(matriz[k][l]==0){
+    /*        if(matriz[k][l]==0){
                 if(unos>1){
                     dibuja=true;    //Si ya no recibe un 1 en matriz[k][l], y unos es de 2 o más, dibuje.
                 }
-            }
+            }*/
 
             if(matriz[k][l]==3){
                 bola = new miesfera();
                 scene->addItem(bola);
-                bola->setPos((l+1)*10,(k+1)*10);
-                if(unos>1){
+                bola->setPos((l+1)*5,(k+1)*5);
+      /*          if(unos>1){
                     dibuja=true;    //Si ya no recibe un 1 en matriz[k][l], y unos es de 2 o más, dibuje.
-                }
+                }*/
             }
 
             if(matriz[k][l]==4){
                 bola_grande = new miesfera2();
                 scene->addItem(bola_grande);
-                bola_grande->setPos((l+1)*10,(k+1)*10);
-                if(unos>1){
+                bola_grande->setPos((l+1)*5,(k+1)*5);
+          /*      if(unos>1){
                     dibuja=true;        //Si ya no recibe un 1 en matriz[k][l], y unos es de 2 o más, dibuje.
+                }*/
+            }
+
+            if(matriz[k][l]!=1){
+                if(unos>1){
+                  dibuja=true;        //Si ya no recibe un 1 en matriz[k][l], y unos es de 2 o más, dibuje.
+                }
+                else {
+                    unos=0;
                 }
             }
 
-            if(matriz[k][l]==1 && unos==0){
-                k_inicio=k+1;       //Da las posiciones iniciales, porque unos no había recibido nada aún.
-                l_inicio=l+1;
+
+            if(matriz[k][l]==1){
+                if(unos==0){
+                    k_inicio=k+1;       //Da las posiciones iniciales, porque unos no había recibido nada aún.
+                    l_inicio=l+1;
+                }
                 unos++;
             }
 
-            else if(matriz[k][l]==1){
-                unos++;
-            }
 
-            if(dibuja==true || unos==30){       //Si ya tiene la bandera para dibujar o si unos llegó a su límite, dibuje la fila
+            if(dibuja==true || unos==60){       //Si ya tiene la bandera para dibujar o si unos llegó a su límite, dibuje la fila
 
-                barra=new QGraphicsRectItem(l_inicio*10,k_inicio*10,(unos-1)*10,5);
+                barra=new QGraphicsRectItem(l_inicio*5,k_inicio*5,(unos)*5,5);
                 scene->addItem(barra);
                 barra->setPos(0,0);
                 barra->setBrush(Qt::darkBlue);
@@ -102,30 +111,75 @@ MainWindow::MainWindow(QWidget *parent)
                 unos=0;
                 dibuja=false;
             }
+        }
+            k_inicio=0;
+            l_inicio=0;
+            unos=0;
+            dibuja=false;
+        }
+
+
+    //Dibujo de las líneas verticales
+
+    for(l=0; l<60; l++){     //Columnas
+        for(k=0; k<13; k++){    //Filas
+
+            if(matriz[k][l]!=1){
+                if(unos>1){
+                  dibuja=true;        //Si ya no recibe un 1 en matriz[k][l], y unos es de 2 o más, dibuje.
+                }
+                else {
+                    unos=0;
+                }
+            }
+
+
+            if(matriz[k][l]==1){
+                if(unos==0){
+                    k_inicio=k+1;       //Da las posiciones iniciales, porque unos no había recibido nada aún.
+                    l_inicio=l+1;
+                }
+                unos++;
+            }
+
+            if(dibuja==true || unos==13){       //Si ya tiene la bandera para dibujar o si unos llegó a su límite, dibuje la fila
+
+                barra=new QGraphicsRectItem(l_inicio*5,k_inicio*5,5,(unos)*5);
+                scene->addItem(barra);
+                barra->setPos(0,0);
+                barra->setBrush(Qt::darkBlue);
+
+                k_inicio=0;
+                l_inicio=0;
+                unos=0;
+                dibuja=false;
+            }
+
+}
+
+
+        k_inicio=0;
+        l_inicio=0;
+        unos=0;
+        dibuja=false;
+
     }
 
-                    k_inicio=0;
-                    l_inicio=0;
-                    unos=0;
-                    dibuja=false;
-
-
-        }
 
 
   //  bola = new miesfera();
    // scene->addItem(bola);
    // bola->setPos(30,30);
 
-    l1=new QGraphicsLineItem(0,0,500,20);
-    l2=new QGraphicsLineItem(0,0,0,400);
-    l3=new QGraphicsLineItem(500,0,500,400);
-    l4=new QGraphicsLineItem(0,400,500,400);
-    l5=new QLineF(0,0,500,0);
-    scene->addItem(l1);
-    scene->addItem(l2);
-    scene->addItem(l3);
-    scene->addItem(l4);
+  //  l1=new QGraphicsLineItem(0,0,500,20);
+   // l2=new QGraphicsLineItem(0,0,0,400);
+ //   l3=new QGraphicsLineItem(500,0,500,400);
+  //  l4=new QGraphicsLineItem(0,400,500,400);
+   // l5=new QLineF(0,0,500,0);
+   // scene->addItem(l1);
+   // scene->addItem(l2);
+ //   scene->addItem(l3);
+  //  scene->addItem(l4);*/
     //l5->setBrush(Qt::white);
 
     //barra->setBrush(Qt::white);
@@ -138,8 +192,8 @@ MainWindow::MainWindow(QWidget *parent)
 
     //scene->destroyed()
 
-
 }
+
 
 MainWindow::~MainWindow()
 {
@@ -171,15 +225,15 @@ void MainWindow::animar()
         barra2->setPos(barra2->x()-2,barra2->y());
     }
 
-    if(barra->collidesWithItem(l2) || barra->collidesWithItem(l3))
-    {
-        moverIx1=false;
+ //   if(barra->collidesWithItem(l2) || barra->collidesWithItem(l3))
+ //   {
+ //       moverIx1=false;
         /*if(bola->isVisible()){
             bola->hide();
             //delete bola;
         }*/
 
-    }
+   // }
     if(barra->collidesWithItem(bola))
     {
         if(bola->isVisible()){
