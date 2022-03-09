@@ -53,7 +53,7 @@ MainWindow::MainWindow(QWidget *parent)
     barra2->setPos(0,0);
     barra2->setBrush(Qt::darkBlue);
 */
-    for(k=0; k<13; k++){     //Filas
+    for(k=0; k<65; k++){     //Filas
         for(l=0; l<60; l++){    //Columnas
 
     /*        if(matriz[k][l]==0){
@@ -122,7 +122,7 @@ MainWindow::MainWindow(QWidget *parent)
     //Dibujo de las líneas verticales
 
     for(l=0; l<60; l++){     //Columnas
-        for(k=0; k<13; k++){    //Filas
+        for(k=0; k<65; k++){    //Filas
 
             if(matriz[k][l]!=1){
                 if(unos>1){
@@ -142,7 +142,7 @@ MainWindow::MainWindow(QWidget *parent)
                 unos++;
             }
 
-            if(dibuja==true || unos==13){       //Si ya tiene la bandera para dibujar o si unos llegó a su límite, dibuje la fila
+            if(dibuja==true || unos==65){       //Si ya tiene la bandera para dibujar o si unos llegó a su límite, dibuje la fila
 
                 barra=new QGraphicsRectItem(l_inicio*5,k_inicio*5,5,(unos)*5);
                 scene->addItem(barra);
@@ -154,15 +154,12 @@ MainWindow::MainWindow(QWidget *parent)
                 unos=0;
                 dibuja=false;
             }
-
-}
-
+        }
 
         k_inicio=0;
         l_inicio=0;
         unos=0;
         dibuja=false;
-
     }
 
 
