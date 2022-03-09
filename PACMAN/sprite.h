@@ -15,7 +15,7 @@ public:
     QTimer *timer;
     QPixmap *pixmap;
 
-    float filas, columnas; //Para iterar sobre la imágen
+    float filas=0, columnas=0; //Para iterar sobre la imágen
 
     float ancho;
     float alto;

@@ -3,14 +3,16 @@
 sprite::sprite(QObject *parent) : QObject(parent)
 {
     timer=new QTimer();
-
+/*
     filas=0;
     columnas=0;
+*/
+
 
     pixmap= new QPixmap(":/imagen/pacman7.png");
 
     ancho=15;   //
-    alto=15;    //5cm=15pc
+    alto=15;    //
 
     timer->start(250);  //Tiempo en milisegundos de iteración de las imágenes.
 
@@ -25,7 +27,7 @@ QRectF sprite::boundingRect() const
 
 void sprite::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
 {
-    painter->drawPixmap(-ancho/2,-alto/2,*pixmap, columnas, 0, ancho, alto);     //El último parámetro es la fila!!
+    painter->drawPixmap(-ancho/2,-alto/2,*pixmap, columnas, filas, ancho, alto);     //El último parámetro es la fila!!
 }
 
 void sprite::actualizacion()

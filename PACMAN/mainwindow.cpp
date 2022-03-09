@@ -18,14 +18,13 @@ MainWindow::MainWindow(QWidget *parent)
     ui->graphicsView->setScene(scene);
 
     puntuacion = 0;
-    moverIx1=false;
-    moverDx1=false;
-    moverUy1=false;
-    moverDy1=false;
-    mover2=false;
+    moverA=false;
+    moverS=false;
+    moverD=false;
+    moverZ=false;
+    //mover2=false;
     dibuja=false;
     unos=0;
-
 
     ui->graphicsView->setBackgroundBrush(QBrush(QImage(":/imagen/Fondo.jpg")));
 
@@ -168,40 +167,18 @@ MainWindow::MainWindow(QWidget *parent)
         dibuja=false;
     }
 
-
-/*
-    pacman = new miesfera();
-    scene->addItem(pacman);
-    pacman->setPos(590,30);
-    pacman->setBrush(Qt::yellow);
-*/
-
     pacman = new sprite();
     scene->addItem(pacman);
     pacman->setPos(150,247);
 
-
-
-  //  l1=new QGraphicsLineItem(0,0,500,20);
-   // l2=new QGraphicsLineItem(0,0,0,400);
- //   l3=new QGraphicsLineItem(500,0,500,400);
-  //  l4=new QGraphicsLineItem(0,400,500,400);
-   // l5=new QLineF(0,0,500,0);
-   // scene->addItem(l1);
-   // scene->addItem(l2);
- //   scene->addItem(l3);
-  //  scene->addItem(l4);*/
-    //l5->setBrush(Qt::white);
-
-    //barra->setBrush(Qt::white);
-    //barra->setBrush(Qt::white);
-    //barra->setBrush(Qt::white);
 
     bola = new miesfera();
     scene->addItem(bola);
     bola->setPos(200,350);
 
     //scene->destroyed()
+
+
 
 }
 
@@ -215,26 +192,69 @@ MainWindow::~MainWindow()
 
 void MainWindow::animar()
 {
-    if(moverIx1 && barra->x()>30)
+    int x_matriz=0, y_matriz=0;
+
+
+    if(moverA)
     {
-        barra->setPos(barra->x()-2,barra->y());
+        x_matriz=pacman->x()-3*5;       //Se multiplica el 2*5 porque cada posición va de a 5.
+        y_matriz=pacman->y();
+
+        x_matriz=x_matriz/5;        //Se dividen por 5 porque como cada posición va de a 5, en la matriz sería la posición entre 5.
+        y_matriz=y_matriz/5;
+
+        if(matriz[y_matriz][x_matriz]!=1){
+            pacman->setPos(pacman->x()-2,pacman->y());  //Izquierda
+            pacman->filas=16;
+        }
     }
-    if(moverDx1)
+
+    if(moverD)
     {
-        barra->setPos(barra->x()+2,barra->y());
+        x_matriz=pacman->x()+1*5;       //Se multiplica el 2*5 porque cada posición va de a 5.
+        y_matriz=pacman->y();
+
+        x_matriz=x_matriz/5;        //Se dividen por 5 porque como cada posición va de a 5, en la matriz sería la posición entre 5.
+        y_matriz=y_matriz/5;
+
+        if(matriz[y_matriz][x_matriz]!=1){
+        pacman->setPos(pacman->x()+2,pacman->y());  //Derecha
+        pacman->filas=0;
+        }
     }
-    if(moverUy1)
+    if(moverS)
     {
-        barra->setPos(barra->x(),barra->y()-2);
+        x_matriz=pacman->x();       //Se multiplica el 2*5 porque cada posición va de a 5.
+        y_matriz=pacman->y()-3*5;
+
+        x_matriz=x_matriz/5;        //Se dividen por 5 porque como cada posición va de a 5, en la matriz sería la posición entre 5.
+        y_matriz=y_matriz/5;
+
+        if(matriz[y_matriz][x_matriz]!=1){
+        pacman->setPos(pacman->x(),pacman->y()-2);  //Arriba
+        pacman->filas=16*2;
+        }
     }
-    if(moverDy1)
+
+    if(moverZ)
     {
-        barra->setPos(barra->x(),barra->y()+2);
+        x_matriz=pacman->x();       //Se multiplica el 2*5 porque cada posición va de a 5.
+        y_matriz=pacman->y()+1*5;
+
+        x_matriz=x_matriz/5;        //Se dividen por 5 porque como cada posición va de a 5, en la matriz sería la posición entre 5.
+        y_matriz=y_matriz/5;
+
+        if(matriz[y_matriz][x_matriz]!=1){
+        pacman->setPos(pacman->x(),pacman->y()+2);  //Abajo
+        pacman->filas=16*3;
     }
+    }
+    /*
     if(mover2)
     {
-        barra2->setPos(barra2->x()-2,barra2->y());
+        pacman->setPos(pacman->x()-2,barra2->y());
     }
+    */
 
  //   if(barra->collidesWithItem(l2) || barra->collidesWithItem(l3))
  //   {
@@ -269,23 +289,20 @@ void MainWindow::keyPressEvent(QKeyEvent *ev)
 {
     if(ev->key()==Qt::Key_A)
     {
-        moverIx1=true;
+        moverA=true;
+
     }
     else if(ev->key()==Qt::Key_S)
     {
-        moverDx1=true;
-    }
-    else if(ev->key()==Qt::Key_W)
-    {
-        moverUy1=true;
+        moverS=true;
     }
     else if(ev->key()==Qt::Key_Z)
     {
-        moverDy1=true;
+        moverZ=true;
     }
     else if(ev->key()==Qt::Key_D)
     {
-        mover2=true;
+        moverD=true;
     }
     /*else if(ev->key()==Qt::Key_X)
     {
@@ -297,23 +314,19 @@ void MainWindow::keyReleaseEvent(QKeyEvent *ev)
 {
     if(ev->key()==Qt::Key_A)
     {
-        moverIx1=false;
+        moverA=false;
     }
     else if(ev->key()==Qt::Key_S)
     {
-        moverDx1=false;
-    }
-    else if(ev->key()==Qt::Key_W)
-    {
-        moverUy1=false;
-    }
-    else if(ev->key()==Qt::Key_Z)
-    {
-        moverDy1=false;
+        moverS=false;
     }
     else if(ev->key()==Qt::Key_D)
     {
-        mover2=false;
+        moverD=false;
+    }
+    else if(ev->key()==Qt::Key_Z)
+    {
+        moverZ=false;
     }
 }
 

@@ -56,16 +56,18 @@ private:
 
     int puntuacion;
 
-    bool moverIx1;
-    bool moverDx1;
-    bool moverUy1;
-    bool moverDy1;
-    bool mover2;
+    bool moverA;
+    bool moverS;
+    bool moverD;
+    bool moverZ;
+ //   bool mover2;
     bool dibuja=0;      //Para dibujar una línea en una fila o columna.
     int unos=0;         //Para ir contando los 1s y mirar si hay que dibujar fila y su tamaño.
     int k_inicio=0;     //k_inicio y l_inicio me dan la posición inicial de la fila.
     int l_inicio=0;
     int k=0, l=0;
+    int x_matriz=0, y_matriz=0;
+    bool no_choca=false;
 
     float x, y, ancho, alto;
 
