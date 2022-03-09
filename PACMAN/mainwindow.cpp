@@ -192,6 +192,8 @@ MainWindow::~MainWindow()
 
 void MainWindow::animar()
 {
+
+    int aviso_entero=0;
     int x_matriz=0, y_matriz=0;
 
 
@@ -216,6 +218,10 @@ void MainWindow::animar()
 
         x_matriz=x_matriz/5;        //Se dividen por 5 porque como cada posición va de a 5, en la matriz sería la posición entre 5.
         y_matriz=y_matriz/5;
+
+        if(pacman->x()>380 & pacman->y()==220){
+            pacman->setPos(0,33*5);  //Derecha
+        }
 
         if(matriz[y_matriz][x_matriz]!=1){
         pacman->setPos(pacman->x()+2,pacman->y());  //Derecha
@@ -249,6 +255,29 @@ void MainWindow::animar()
         pacman->filas=16*3;
     }
     }
+
+    if(pacman->x()>290 && pacman->y()<170){     //Para devolverse a la izquierda.
+        pacman->setPos(10,155);
+    }
+
+
+    if(pacman->x()<10 && pacman->y()<170){     //Para devolverse a la derecha. Se toma con x menor a 10 para que no se devuelva cuando antes se haya devuelto a la izquieda.
+        pacman->setPos(290,155);
+    }
+
+  /*
+    x_matriz=pacman->x();
+    y_matriz=pacman->y();
+
+    x_matriz=x_matriz/5;        //Se dividen por 5 porque como cada posición va de a 5, en la matriz sería la posición entre 5.
+    y_matriz=y_matriz/5;
+
+    if(matriz[y_matriz][x_matriz]==3){
+    pacman->setPos(pacman->x(),pacman->y()+2);  //Abajo
+    pacman->filas=16*3;
+    }
+*/
+
     /*
     if(mover2)
     {
@@ -265,14 +294,13 @@ void MainWindow::animar()
         }*/
 
    // }
-    if(barra->collidesWithItem(bola))
+    if(pacman->collidesWithItem(bola))
     {
         if(bola->isVisible()){
             bola->hide();
             emit aviso(9);
             //delete bola;
         }
-
     }
 
     /*for(int i=0; i<bolas.length();i++)
