@@ -28,12 +28,16 @@ SOURCES += \
         main.cpp \
         mainwindow.cpp \
         miesfera.cpp \
-        miesfera2.cpp
+        miesfera2.cpp \
+        prueba.cpp \
+        sprite.cpp
 
 HEADERS += \
         mainwindow.h \
         miesfera.h \
-        miesfera2.h
+        miesfera2.h \
+        prueba.h \
+        sprite.h
 
 FORMS += \
         mainwindow.ui
@@ -45,3 +49,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 RESOURCES += \
     imagenes.qrc
+
+DISTFILES +=

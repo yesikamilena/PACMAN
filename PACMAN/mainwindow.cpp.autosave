@@ -217,7 +217,7 @@ void MainWindow::animar()
 {
     if(moverIx1 && barra->x()>30)
     {
-        barra->setPos(barra->x()-2,barra->y());
+        pacman->setPos(barra->x()-2,barra->y());
     }
     if(moverDx1)
     {

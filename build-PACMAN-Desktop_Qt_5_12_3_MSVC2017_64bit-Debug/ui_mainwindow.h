@@ -39,18 +39,18 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
-        MainWindow->resize(491, 385);
+        MainWindow->resize(579, 375);
         centralWidget = new QWidget(MainWindow);
         centralWidget->setObjectName(QString::fromUtf8("centralWidget"));
         pushButton = new QPushButton(centralWidget);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(50, 280, 80, 21));
+        pushButton->setGeometry(QRect(480, 210, 80, 21));
         dial = new QDial(centralWidget);
         dial->setObjectName(QString::fromUtf8("dial"));
-        dial->setGeometry(QRect(200, 250, 50, 64));
+        dial->setGeometry(QRect(500, 100, 50, 64));
         lcdNumber = new QLCDNumber(centralWidget);
         lcdNumber->setObjectName(QString::fromUtf8("lcdNumber"));
-        lcdNumber->setGeometry(QRect(290, 270, 64, 23));
+        lcdNumber->setGeometry(QRect(470, 20, 64, 23));
         graphicsView = new QGraphicsView(centralWidget);
         graphicsView->setObjectName(QString::fromUtf8("graphicsView"));
         graphicsView->setEnabled(true);
@@ -142,7 +142,7 @@ public:
         lcdNumber->raise();
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QString::fromUtf8("menuBar"));
-        menuBar->setGeometry(QRect(0, 0, 491, 20));
+        menuBar->setGeometry(QRect(0, 0, 579, 20));
         MainWindow->setMenuBar(menuBar);
         mainToolBar = new QToolBar(MainWindow);
         mainToolBar->setObjectName(QString::fromUtf8("mainToolBar"));
