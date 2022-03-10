@@ -1,12 +1,12 @@
 <RCC>
     <qresource prefix="/">
         <file>imagen/Fondo.jpg</file>
+        <file>imagen/pacman7.png</file>
         <file>imagen/pacman1.png</file>
         <file>imagen/pacman2.png</file>
         <file>imagen/pacman3.png</file>
         <file>imagen/pacman4.png</file>
         <file>imagen/pacman5.png</file>
         <file>imagen/pacman6.png</file>
-        <file>imagen/pacman7.png</file>
     </qresource>
 </RCC>

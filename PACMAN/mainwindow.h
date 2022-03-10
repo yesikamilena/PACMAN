@@ -10,7 +10,6 @@
 #include <QTimer>
 #include "miesfera.h"
 #include "miesfera2.h"
-#include "prueba.h"
 #include <iostream>
 #include <sprite.h>
 #include <QGraphicsItem>
@@ -43,11 +42,9 @@ private:
     QGraphicsScene* scene;
     QGraphicsRectItem* barra;
     QGraphicsRectItem* barra2;
-    //miesfera* bola;
-    miesfera* bolas[244];
+    miesfera* bolas[241];
     sprite* pacman;
-    //miesfera2* bola_grande;
-    miesfera2* bolas_grandes[5];
+    miesfera2* bolas_grandes[4];
     QTimer *timer;
 
 

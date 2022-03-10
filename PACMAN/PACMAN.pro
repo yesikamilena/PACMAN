@@ -35,7 +35,6 @@ HEADERS += \
         mainwindow.h \
         miesfera.h \
         miesfera2.h \
-        prueba.h \
         sprite.h
 
 FORMS += \

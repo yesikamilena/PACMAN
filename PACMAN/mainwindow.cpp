@@ -38,23 +38,12 @@ MainWindow::MainWindow(QWidget *parent)
     for(k=0; k<66; k++){     //Filas
         for(l=0; l<60; l++){    //Columnas
 
-            /*
-            if(matriz[k][l]==3){
-                bola = new miesfera();
-                scene->addItem(bola);
-                bola->setPos((l+1)*5,(k+1)*5);
-                }
-*/
-
-
             if(matriz[k][l]==3){
                 bolas[i] = new miesfera();
                 scene->addItem(bolas[i]);
                 bolas[i]->setPos((l+1)*5,(k+1)*5);
                 i++;
                 }
-
-
 
             if(matriz[k][l]==4){
                 bolas_grandes[j] = new miesfera2();
@@ -231,7 +220,7 @@ void MainWindow::animar()
 
 
     //Choque con las bolas pequeñas
-    for(int o=0; o<244; o++){
+    for(int o=0; o<241; o++){
         if(pacman->collidesWithItem(bolas[o]))
         {
             if(bolas[o]->isVisible()){
@@ -242,7 +231,7 @@ void MainWindow::animar()
     }
 
     //Choque con las bolas grandes
-    for(int o=0; o<5; o++){
+    for(int o=0; o<4; o++){
         if(pacman->collidesWithItem(bolas_grandes[o]))
         {
             if(bolas_grandes[o]->isVisible()){

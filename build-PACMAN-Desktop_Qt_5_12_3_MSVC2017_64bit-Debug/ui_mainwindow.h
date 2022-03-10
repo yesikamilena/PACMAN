@@ -11,12 +11,10 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QDial>
 #include <QtWidgets/QGraphicsView>
 #include <QtWidgets/QLCDNumber>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
-#include <QtWidgets/QPushButton>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QToolBar>
 #include <QtWidgets/QWidget>
@@ -27,8 +25,6 @@ class Ui_MainWindow
 {
 public:
     QWidget *centralWidget;
-    QPushButton *pushButton;
-    QDial *dial;
     QLCDNumber *lcdNumber;
     QGraphicsView *graphicsView;
     QMenuBar *menuBar;
@@ -42,12 +38,6 @@ public:
         MainWindow->resize(579, 375);
         centralWidget = new QWidget(MainWindow);
         centralWidget->setObjectName(QString::fromUtf8("centralWidget"));
-        pushButton = new QPushButton(centralWidget);
-        pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(480, 210, 80, 21));
-        dial = new QDial(centralWidget);
-        dial->setObjectName(QString::fromUtf8("dial"));
-        dial->setGeometry(QRect(500, 100, 50, 64));
         lcdNumber = new QLCDNumber(centralWidget);
         lcdNumber->setObjectName(QString::fromUtf8("lcdNumber"));
         lcdNumber->setGeometry(QRect(470, 20, 64, 23));
@@ -137,8 +127,6 @@ public:
         graphicsView->setForegroundBrush(brush9);
         MainWindow->setCentralWidget(centralWidget);
         graphicsView->raise();
-        pushButton->raise();
-        dial->raise();
         lcdNumber->raise();
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QString::fromUtf8("menuBar"));
@@ -159,7 +147,6 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", nullptr));
-        pushButton->setText(QApplication::translate("MainWindow", "PushButton", nullptr));
     } // retranslateUi
 
 };
