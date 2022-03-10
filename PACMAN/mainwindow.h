@@ -43,14 +43,11 @@ private:
     QGraphicsScene* scene;
     QGraphicsRectItem* barra;
     QGraphicsRectItem* barra2;
- //   QGraphicsLineItem* l1;
-  //  QGraphicsLineItem* l2;
-  //  QGraphicsLineItem* l3;
-   // QGraphicsLineItem* l4;
-   // QLineF* l5;
-    miesfera* bola;
+    //miesfera* bola;
+    miesfera* bolas[244];
     sprite* pacman;
-    miesfera2* bola_grande;
+    //miesfera2* bola_grande;
+    miesfera2* bolas_grandes[5];
     QTimer *timer;
 
 
@@ -60,7 +57,6 @@ private:
     bool moverS;
     bool moverD;
     bool moverZ;
- //   bool mover2;
     bool dibuja=0;      //Para dibujar una línea en una fila o columna.
     int unos=0;         //Para ir contando los 1s y mirar si hay que dibujar fila y su tamaño.
     int k_inicio=0;     //k_inicio y l_inicio me dan la posición inicial de la fila.
@@ -68,6 +64,9 @@ private:
     int k=0, l=0;
     int x_matriz=0, y_matriz=0;
     bool no_choca=false;
+    int i=0;                //Iterador para el vector de bolas
+    int j=0;                //Iterador para el vector de bolas_grandes
+
 
     float x, y, ancho, alto;
 

@@ -29,7 +29,6 @@ SOURCES += \
         mainwindow.cpp \
         miesfera.cpp \
         miesfera2.cpp \
-        prueba.cpp \
         sprite.cpp
 
 HEADERS += \

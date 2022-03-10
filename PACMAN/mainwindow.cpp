@@ -34,56 +34,34 @@ MainWindow::MainWindow(QWidget *parent)
     connect(this,SIGNAL(aviso(int)),this,SLOT(aumentarPunt()));
 
     timer->start(33);
-/*
-    //Superiores
-    barra=new QGraphicsRectItem(10,10,60,5);
-    scene->addItem(barra);
-    barra->setPos(0,0);
-    barra->setBrush(Qt::darkBlue);
 
-    barra=new QGraphicsRectItem(20,20,60,5);
-    scene->addItem(barra);
-    barra->setPos(0,0);
-    barra->setBrush(Qt::darkBlue);
-
-
-    //Izquierda
-    barra2=new QGraphicsRectItem(10,10,5,60);
-    scene->addItem(barra2);
-    barra2->setPos(0,0);
-    barra2->setBrush(Qt::darkBlue);
-
-    barra2=new QGraphicsRectItem(20,20,5,60);
-    scene->addItem(barra2);
-    barra2->setPos(0,0);
-    barra2->setBrush(Qt::darkBlue);
-*/
     for(k=0; k<66; k++){     //Filas
         for(l=0; l<60; l++){    //Columnas
 
-    /*        if(matriz[k][l]==0){
-                if(unos>1){
-                    dibuja=true;    //Si ya no recibe un 1 en matriz[k][l], y unos es de 2 o más, dibuje.
-                }
-            }*/
-
+            /*
             if(matriz[k][l]==3){
                 bola = new miesfera();
                 scene->addItem(bola);
                 bola->setPos((l+1)*5,(k+1)*5);
-      /*          if(unos>1){
-                    dibuja=true;    //Si ya no recibe un 1 en matriz[k][l], y unos es de 2 o más, dibuje.
-                }*/
-            }
+                }
+*/
+
+
+            if(matriz[k][l]==3){
+                bolas[i] = new miesfera();
+                scene->addItem(bolas[i]);
+                bolas[i]->setPos((l+1)*5,(k+1)*5);
+                i++;
+                }
+
+
 
             if(matriz[k][l]==4){
-                bola_grande = new miesfera2();
-                scene->addItem(bola_grande);
-                bola_grande->setPos((l+1)*5,(k+1)*5);
-          /*      if(unos>1){
-                    dibuja=true;        //Si ya no recibe un 1 en matriz[k][l], y unos es de 2 o más, dibuje.
-                }*/
-            }
+                bolas_grandes[j] = new miesfera2();
+                scene->addItem(bolas_grandes[j]);
+                bolas_grandes[j]->setPos((l+1)*5,(k+1)*5);
+                j++;
+                }
 
             if(matriz[k][l]!=1){
                 if(unos>1){
@@ -94,7 +72,6 @@ MainWindow::MainWindow(QWidget *parent)
                 }
             }
 
-
             if(matriz[k][l]==1){
                 if(unos==0){
                     k_inicio=k+1;       //Da las posiciones iniciales, porque unos no había recibido nada aún.
@@ -102,7 +79,6 @@ MainWindow::MainWindow(QWidget *parent)
                 }
                 unos++;
             }
-
 
             if(dibuja==true || unos==60){       //Si ya tiene la bandera para dibujar o si unos llegó a su límite, dibuje la fila
 
@@ -138,7 +114,6 @@ MainWindow::MainWindow(QWidget *parent)
                 }
             }
 
-
             if(matriz[k][l]==1){
                 if(unos==0){
                     k_inicio=k+1;       //Da las posiciones iniciales, porque unos no había recibido nada aún.
@@ -171,14 +146,7 @@ MainWindow::MainWindow(QWidget *parent)
     scene->addItem(pacman);
     pacman->setPos(150,247);
 
-
-    bola = new miesfera();
-    scene->addItem(bola);
-    bola->setPos(200,350);
-
     //scene->destroyed()
-
-
 
 }
 
@@ -192,10 +160,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::animar()
 {
-
-    int aviso_entero=0;
     int x_matriz=0, y_matriz=0;
-
 
     if(moverA)
     {
@@ -253,64 +218,40 @@ void MainWindow::animar()
         if(matriz[y_matriz][x_matriz]!=1){
         pacman->setPos(pacman->x(),pacman->y()+2);  //Abajo
         pacman->filas=16*3;
-    }
+        }
     }
 
     if(pacman->x()>290 && pacman->y()<170){     //Para devolverse a la izquierda.
         pacman->setPos(10,155);
     }
 
-
     if(pacman->x()<10 && pacman->y()<170){     //Para devolverse a la derecha. Se toma con x menor a 10 para que no se devuelva cuando antes se haya devuelto a la izquieda.
         pacman->setPos(290,155);
     }
 
-  /*
-    x_matriz=pacman->x();
-    y_matriz=pacman->y();
 
-    x_matriz=x_matriz/5;        //Se dividen por 5 porque como cada posición va de a 5, en la matriz sería la posición entre 5.
-    y_matriz=y_matriz/5;
-
-    if(matriz[y_matriz][x_matriz]==3){
-    pacman->setPos(pacman->x(),pacman->y()+2);  //Abajo
-    pacman->filas=16*3;
-    }
-*/
-
-    /*
-    if(mover2)
-    {
-        pacman->setPos(pacman->x()-2,barra2->y());
-    }
-    */
-
- //   if(barra->collidesWithItem(l2) || barra->collidesWithItem(l3))
- //   {
- //       moverIx1=false;
-        /*if(bola->isVisible()){
-            bola->hide();
-            //delete bola;
-        }*/
-
-   // }
-    if(pacman->collidesWithItem(bola))
-    {
-        if(bola->isVisible()){
-            bola->hide();
-            emit aviso(9);
-            //delete bola;
-        }
-    }
-
-    /*for(int i=0; i<bolas.length();i++)
-    {
-        bolas.at(i)->mover();
-        if(!bolas.at(i)->collidingItems().empty())
+    //Choque con las bolas pequeñas
+    for(int o=0; o<244; o++){
+        if(pacman->collidesWithItem(bolas[o]))
         {
-            bolas.at(i)->choque();
+            if(bolas[o]->isVisible()){
+                bolas[o]->hide();
+                aumentarPunt();
+            }
         }
-    }*/
+    }
+
+    //Choque con las bolas grandes
+    for(int o=0; o<5; o++){
+        if(pacman->collidesWithItem(bolas_grandes[o]))
+        {
+            if(bolas_grandes[o]->isVisible()){
+                bolas_grandes[o]->hide();
+                aumentarPunt();
+                aumentarPunt();     //Para aumentar el doble de puntos: 5+5=10 puntos
+            }
+        }
+    }
 }
 
 void MainWindow::keyPressEvent(QKeyEvent *ev)
@@ -332,10 +273,6 @@ void MainWindow::keyPressEvent(QKeyEvent *ev)
     {
         moverD=true;
     }
-    /*else if(ev->key()==Qt::Key_X)
-    {
-        delete bola;
-    }*/
 }
 
 void MainWindow::keyReleaseEvent(QKeyEvent *ev)
@@ -364,13 +301,3 @@ void MainWindow::aumentarPunt()
     ui->lcdNumber->display(puntuacion);
     std::cout<<puntuacion<<std::endl;
 }
-
-
-
-/*void MainWindow::mousePressEvent(QMouseEvent *ev)
-{
-    bolas.append(new Bola());
-    scene->addItem(bolas.last());
-    bolas.last()->setPos(ev->x()-83,ev->y()-83);
-}*/
-

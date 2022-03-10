@@ -9,6 +9,9 @@
    id="svg5"
    inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
    sodipodi:docname="pacman1.svg"
+   inkscape:export-filename="C:\Users\Diego\Documents\Milena\Estudios\informaticaii_la_revancha_del_regreso\laboratorio\practica5\practica5\PACMAN\imagen\pacman6.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -23,9 +26,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.3077309"
-     inkscape:cx="763.15395"
-     inkscape:cy="136.87831"
+     inkscape:zoom="3.6988215"
+     inkscape:cx="51.367712"
+     inkscape:cy="60.289473"
      inkscape:window-width="1366"
      inkscape:window-height="705"
      inkscape:window-x="-8"
@@ -46,219 +49,1042 @@
        x="211.66667"
        y="211.66667" />
     <g
-       id="g3732"
-       inkscape:export-filename="C:\Users\Diego\Documents\Milena\Estudios\informaticaii_la_revancha_del_regreso\laboratorio\practica5\practica5\PACMAN\imagen\pacman3.png"
+       id="g1097"
+       transform="matrix(0.42306156,0,0,0.42820806,-15.955122,-5.8780345)"
+       inkscape:export-filename="C:\Users\Diego\Documents\Milena\Estudios\informaticaii_la_revancha_del_regreso\laboratorio\practica5\practica5\PACMAN\imagen\pacman7.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <rect
+         style="fill:none;stroke:none;stroke-width:0.0527684;stroke-opacity:1"
+         id="rect1223"
+         width="5.9139113"
+         height="5.3095341"
+         x="39.947041"
+         y="14.685164" />
+      <rect
+         style="fill:none;stroke:none;stroke-width:0.0527684;stroke-opacity:1"
+         id="rect1225"
+         width="5.9546971"
+         height="5.6289048"
+         x="40.640396"
+         y="15.643276" />
+      <rect
+         style="fill:none;stroke:none;stroke-width:0.0527684;stroke-opacity:1"
+         id="rect1329"
+         width="1.5498528"
+         height="0.95811146"
+         x="39.947041"
+         y="13.727053" />
+      <rect
+         style="fill:none;stroke:none;stroke-width:0.0527684;stroke-opacity:1"
+         id="rect1331"
+         width="4.4456301"
+         height="5.1498494"
+         x="39.702328"
+         y="15.76304" />
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.0527684;stroke-opacity:0"
+         id="rect1333"
+         width="6.2401958"
+         height="6.3874097"
+         x="41.048252"
+         y="16.441702" />
+      <path
+         style="fill:#ffff00;fill-rule:evenodd;stroke:#000000;stroke-width:0.301;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path55"
+         sodipodi:type="arc"
+         sodipodi:cx="42.746967"
+         sodipodi:cy="18.806324"
+         sodipodi:rx="4.0273232"
+         sodipodi:ry="3.9316123"
+         sodipodi:start="0.034906585"
+         sodipodi:end="6.2482787"
+         sodipodi:arc-type="slice"
+         d="m 46.771837,18.943535 a 4.0273232,3.9316123 0 0 1 -4.095156,3.793802 4.0273232,3.9316123 0 0 1 -3.957037,-3.931013 4.0273232,3.9316123 0 0 1 3.957037,-3.931013 4.0273232,3.9316123 0 0 1 4.095156,3.793802 l -4.02487,0.137211 z" />
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.0898516;stroke-opacity:0.550201"
+         id="rect1489"
+         width="9.9773693"
+         height="9.7402544"
+         x="37.758282"
+         y="13.936197" />
+      <ellipse
+         style="fill:#000000;stroke:#000000;stroke-width:0.470452;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2517"
+         cx="43.201756"
+         cy="16.848684"
+         rx="0.67366844"
+         ry="0.8925364" />
+      <g
+         id="g948">
+        <path
+           style="fill:#ffff00;fill-rule:evenodd;stroke:#000000;stroke-width:0.301;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path55-6"
+           sodipodi:type="arc"
+           sodipodi:cx="52.724335"
+           sodipodi:cy="18.806324"
+           sodipodi:rx="4.0273232"
+           sodipodi:ry="3.9316123"
+           sodipodi:start="0.34906585"
+           sodipodi:end="6.2482787"
+           sodipodi:arc-type="slice"
+           d="m 56.508781,20.151015 a 4.0273232,3.9316123 0 0 1 -4.792807,2.46169 4.0273232,3.9316123 0 0 1 -2.96938,-4.421421 4.0273232,3.9316123 0 0 1 4.223603,-3.309239 4.0273232,3.9316123 0 0 1 3.779008,3.787068 l -4.02487,0.137211 z" />
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.0898516;stroke-opacity:0.550201"
+           id="rect1489-7"
+           width="9.9773693"
+           height="9.7402544"
+           x="47.735653"
+           y="13.936197" />
+        <ellipse
+           style="fill:#000000;stroke:#000000;stroke-width:0.470452;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path2517-0"
+           cx="53.179123"
+           cy="16.848684"
+           rx="0.67366844"
+           ry="0.8925364" />
+      </g>
+      <g
+         id="g948-0"
+         transform="translate(39.909475)">
+        <path
+           style="fill:#ffff00;fill-rule:evenodd;stroke:#000000;stroke-width:0.301;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path55-6-9"
+           sodipodi:type="arc"
+           sodipodi:cx="52.724335"
+           sodipodi:cy="18.806324"
+           sodipodi:rx="4.0273232"
+           sodipodi:ry="3.9316123"
+           sodipodi:start="0.34906585"
+           sodipodi:end="6.2482787"
+           sodipodi:arc-type="slice"
+           d="m 56.508781,20.151015 a 4.0273232,3.9316123 0 0 1 -4.792807,2.46169 4.0273232,3.9316123 0 0 1 -2.96938,-4.421421 4.0273232,3.9316123 0 0 1 4.223603,-3.309239 4.0273232,3.9316123 0 0 1 3.779008,3.787068 l -4.02487,0.137211 z" />
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.0898516;stroke-opacity:0.550201"
+           id="rect1489-7-2"
+           width="9.9773693"
+           height="9.7402544"
+           x="47.735653"
+           y="13.936197" />
+        <ellipse
+           style="fill:#000000;stroke:#000000;stroke-width:0.470452;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path2517-0-3"
+           cx="53.179123"
+           cy="16.848684"
+           rx="0.67366844"
+           ry="0.8925364" />
+      </g>
+      <rect
+         style="fill:none;stroke:none;stroke-width:0.0527684;stroke-opacity:1"
+         id="rect1223-3"
+         width="5.9139113"
+         height="5.3095341"
+         x="59.901783"
+         y="14.685164" />
+      <rect
+         style="fill:none;stroke:none;stroke-width:0.0527684;stroke-opacity:1"
+         id="rect1225-5"
+         width="5.9546971"
+         height="5.6289048"
+         x="60.595135"
+         y="15.643276" />
+      <rect
+         style="fill:none;stroke:none;stroke-width:0.0527684;stroke-opacity:1"
+         id="rect1329-8"
+         width="1.5498528"
+         height="0.95811146"
+         x="59.901783"
+         y="13.727053" />
+      <rect
+         style="fill:none;stroke:none;stroke-width:0.0527684;stroke-opacity:1"
+         id="rect1331-7"
+         width="4.4456301"
+         height="5.1498494"
+         x="59.657066"
+         y="15.76304" />
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.0527684;stroke-opacity:0"
+         id="rect1333-8"
+         width="6.2401958"
+         height="6.3874097"
+         x="61.002995"
+         y="16.441702" />
+      <path
+         style="fill:#ffff00;fill-rule:evenodd;stroke:#000000;stroke-width:0.301;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path55-8"
+         sodipodi:type="arc"
+         sodipodi:cx="62.70171"
+         sodipodi:cy="18.806324"
+         sodipodi:rx="4.0273232"
+         sodipodi:ry="3.9316123"
+         sodipodi:start="0.6981317"
+         sodipodi:end="6.2482787"
+         sodipodi:arc-type="slice"
+         d="m 65.786818,21.333516 a 4.0273232,3.9316123 0 0 1 -5.068257,0.894709 4.0273232,3.9316123 0 0 1 -1.82476,-4.701909 4.0273232,3.9316123 0 0 1 4.403185,-2.608419 4.0273232,3.9316123 0 0 1 3.429594,3.751216 l -4.02487,0.137211 z" />
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.0898516;stroke-opacity:0.550201"
+         id="rect1489-4"
+         width="9.9773693"
+         height="9.7402544"
+         x="57.713024"
+         y="13.936197" />
+      <ellipse
+         style="fill:#000000;stroke:#000000;stroke-width:0.470452;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2517-04"
+         cx="63.156498"
+         cy="16.848684"
+         rx="0.67366844"
+         ry="0.8925364" />
+      <path
+         style="fill:#ffff00;fill-rule:evenodd;stroke:#000000;stroke-width:0.301;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path55-8-4"
+         sodipodi:type="arc"
+         sodipodi:cx="82.656441"
+         sodipodi:cy="18.806324"
+         sodipodi:rx="4.0273232"
+         sodipodi:ry="3.9316123"
+         sodipodi:start="0.6981317"
+         sodipodi:end="6.2482787"
+         sodipodi:arc-type="slice"
+         d="m 85.741549,21.333516 a 4.0273232,3.9316123 0 0 1 -5.068257,0.894709 4.0273232,3.9316123 0 0 1 -1.82476,-4.701909 4.0273232,3.9316123 0 0 1 4.403185,-2.608419 4.0273232,3.9316123 0 0 1 3.429594,3.751216 l -4.02487,0.137211 z" />
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.0898516;stroke-opacity:0.550201"
+         id="rect1489-4-2"
+         width="9.9773693"
+         height="9.7402544"
+         x="77.667763"
+         y="13.936197" />
+      <ellipse
+         style="fill:#000000;stroke:#000000;stroke-width:0.470452;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2517-04-1"
+         cx="83.111229"
+         cy="16.848684"
+         rx="0.67366844"
+         ry="0.8925364" />
+      <path
+         style="fill:#ffff00;fill-rule:evenodd;stroke:#000000;stroke-width:0.301;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path55-6-6"
+         sodipodi:type="arc"
+         sodipodi:cx="72.679077"
+         sodipodi:cy="18.806324"
+         sodipodi:rx="4.0273232"
+         sodipodi:ry="3.9316123"
+         sodipodi:start="1.3962634"
+         sodipodi:end="6.2482787"
+         sodipodi:arc-type="slice"
+         d="m 73.378414,22.678206 a 4.0273232,3.9316123 0 0 1 -4.169396,-1.876438 4.0273232,3.9316123 0 0 1 0.340241,-4.469688 4.0273232,3.9316123 0 0 1 4.407707,-1.254197 4.0273232,3.9316123 0 0 1 2.746981,3.59123 l -4.02487,0.137211 z" />
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.0898516;stroke-opacity:0.550201"
+         id="rect1489-7-5"
+         width="9.9773693"
+         height="9.7402544"
+         x="67.690392"
+         y="13.936197" />
+      <ellipse
+         style="fill:#000000;stroke:#000000;stroke-width:0.470452;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2517-0-9"
+         cx="73.133865"
+         cy="16.848684"
+         rx="0.67366844"
+         ry="0.8925364" />
+    </g>
+    <g
+       id="g2047"
+       transform="matrix(1.0202704,0,0,1.0034413,-0.09499453,-2.8608941)"
+       inkscape:export-filename="C:\Users\Diego\Documents\Milena\Estudios\informaticaii_la_revancha_del_regreso\laboratorio\practica5\practica5\PACMAN\imagen\pacman7.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
       <g
-         id="g3513">
+         id="g1664"
+         transform="rotate(-90,2.1651857,13.366931)">
         <rect
-           style="fill:none;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-           id="rect1223"
-           width="29.336756"
-           height="26.908886"
-           x="16.388119"
-           y="10.116123" />
+           style="fill:none;stroke:none;stroke-width:0.0223529;stroke-opacity:1"
+           id="rect1223-5"
+           width="2.5054741"
+           height="2.2488608"
+           x="0.9789753"
+           y="11.665699" />
         <rect
-           style="fill:none;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-           id="rect1225"
-           width="29.539078"
-           height="28.527468"
-           x="19.8276"
-           y="14.971862" />
+           style="fill:none;stroke:none;stroke-width:0.0223529;stroke-opacity:1"
+           id="rect1225-6"
+           width="2.5227532"
+           height="2.384131"
+           x="1.2727207"
+           y="12.071509" />
         <rect
-           style="fill:none;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-           id="rect1329"
-           width="7.6882539"
-           height="4.8557391"
-           x="16.388119"
-           y="5.2603836" />
-        <rect
-           style="fill:none;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-           id="rect1331"
-           width="22.053148"
-           height="26.099598"
-           x="15.174185"
-           y="15.578829" />
-        <rect
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:0"
-           id="rect1333"
-           width="30.955334"
-           height="32.371593"
-           x="21.850826"
-           y="19.018312" />
+           style="fill:none;stroke:#000000;stroke-width:0.0223529;stroke-opacity:0"
+           id="rect1333-85"
+           width="2.643707"
+           height="2.7053967"
+           x="1.4455121"
+           y="12.409683" />
         <g
-           id="g2728"
-           inkscape:export-filename="C:\Users\Diego\Documents\Milena\Estudios\informaticaii_la_revancha_del_regreso\laboratorio\practica5\practica5\PACMAN\imagen\pacman1.png"
-           inkscape:export-xdpi="96"
-           inkscape:export-ydpi="96"
-           transform="matrix(2.3596158,0,0,2.3534097,-72.017747,-12.249428)">
+           id="g1590">
           <path
              style="fill:#ffff00;fill-rule:evenodd;stroke:#000000;stroke-width:0.301;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-             id="path55"
+             id="path55-9"
              sodipodi:type="arc"
-             sodipodi:cx="43.352516"
-             sodipodi:cy="18.378319"
-             sodipodi:rx="8.4666662"
-             sodipodi:ry="8.4666662"
+             sodipodi:cx="2.1651859"
+             sodipodi:cy="13.411222"
+             sodipodi:rx="1.7062066"
+             sodipodi:ry="1.6652402"
              sodipodi:start="0.034906585"
              sodipodi:end="6.2482787"
              sodipodi:arc-type="slice"
-             d="m 51.814025,18.673801 a 8.4666662,8.4666662 0 0 1 -8.609272,8.169894 8.4666662,8.4666662 0 0 1 -8.318903,-8.465376 8.4666662,8.4666662 0 0 1 8.318902,-8.4653769 8.4666662,8.4666662 0 0 1 8.609273,8.1698939 l -8.461509,0.295483 z" />
-          <rect
-             style="fill:none;stroke:#000000;stroke-width:0.191181;stroke-opacity:0.550201"
-             id="rect1489"
-             width="20.975485"
-             height="20.975487"
-             x="32.864773"
-             y="7.8905764" />
-          <ellipse
-             style="fill:#000000;stroke:#000000;stroke-width:1.001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-             id="path2517"
-             cx="44.30862"
-             cy="14.162573"
-             rx="1.4162574"
-             ry="1.9220634" />
+             d="m 3.8703531,13.469339 a 1.7062066,1.6652402 0 0 1 -1.7349446,1.60687 1.7062066,1.6652402 0 0 1 -1.67642913,-1.664987 1.7062066,1.6652402 0 0 1 1.67642913,-1.664986 1.7062066,1.6652402 0 0 1 1.7349446,1.60687 l -1.7051672,0.05812 z" />
         </g>
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.0380616;stroke-opacity:0.550201"
+           id="rect1489-5"
+           width="4.2269893"
+           height="4.1254988"
+           x="-4.2786803"
+           y="-15.473972"
+           transform="scale(-1)" />
         <g
-           id="g2728-8"
-           inkscape:export-filename="C:\Users\Diego\Documents\Milena\Estudios\informaticaii_la_revancha_del_regreso\laboratorio\practica5\practica5\PACMAN\imagen\pacman1.png"
-           inkscape:export-xdpi="96"
-           inkscape:export-ydpi="96"
-           transform="matrix(2.3596158,0,0,2.3534097,-22.523666,-12.249428)">
-          <path
-             style="fill:#ffff00;fill-rule:evenodd;stroke:#000000;stroke-width:0.301;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-             id="path55-6"
-             sodipodi:type="arc"
-             sodipodi:cx="43.352516"
-             sodipodi:cy="18.378319"
-             sodipodi:rx="8.4666662"
-             sodipodi:ry="8.4666662"
-             sodipodi:start="0.34906585"
-             sodipodi:end="6.2482787"
-             sodipodi:arc-type="slice"
-             d="m 51.30858,21.274089 a 8.4666662,8.4666662 0 0 1 -10.075948,5.301213 8.4666662,8.4666662 0 0 1 -6.242543,-9.521462 8.4666662,8.4666662 0 0 1 8.879305,-7.1263954 8.4666662,8.4666662 0 0 1 7.944631,8.1553914 l -8.461509,0.295483 z" />
+           id="g1595">
           <rect
-             style="fill:none;stroke:#000000;stroke-width:0.191181;stroke-opacity:0.550201"
-             id="rect1489-7"
-             width="20.975485"
-             height="20.975487"
-             x="32.864773"
-             y="7.8905764" />
+             style="fill:none;stroke:none;stroke-width:0.0223529;stroke-opacity:1"
+             id="rect1329-1"
+             width="0.65660709"
+             height="0.40580952"
+             x="0.9789753"
+             y="11.25989" />
+          <rect
+             style="fill:none;stroke:none;stroke-width:0.0223529;stroke-opacity:1"
+             id="rect1331-03"
+             width="1.8834254"
+             height="2.1812263"
+             x="0.87530082"
+             y="12.122235" />
           <ellipse
-             style="fill:#000000;stroke:#000000;stroke-width:1.001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-             id="path2517-0"
-             cx="44.30862"
-             cy="14.162573"
-             rx="1.4162574"
-             ry="1.9220634" />
+             style="fill:#000000;stroke:#000000;stroke-width:0.199286;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="path2517-7"
+             cx="2.3578603"
+             cy="12.582062"
+             rx="0.28540483"
+             ry="0.3780351" />
         </g>
       </g>
       <g
-         id="g3513-0"
-         transform="translate(98.988162)">
+         id="g948-5"
+         transform="matrix(0,-0.4236577,0.42355146,0,-1.6304697,35.704003)">
+        <path
+           style="fill:#ffff00;fill-rule:evenodd;stroke:#000000;stroke-width:0.301;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path55-6-3"
+           sodipodi:type="arc"
+           sodipodi:cx="52.724335"
+           sodipodi:cy="18.806324"
+           sodipodi:rx="4.0273232"
+           sodipodi:ry="3.9316123"
+           sodipodi:start="0.34906585"
+           sodipodi:end="6.2482787"
+           sodipodi:arc-type="slice"
+           d="m 56.508781,20.151015 a 4.0273232,3.9316123 0 0 1 -4.792807,2.46169 4.0273232,3.9316123 0 0 1 -2.96938,-4.421421 4.0273232,3.9316123 0 0 1 4.223603,-3.309239 4.0273232,3.9316123 0 0 1 3.779008,3.787068 l -4.02487,0.137211 z" />
         <rect
-           style="fill:none;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-           id="rect1223-3"
-           width="29.336756"
-           height="26.908886"
-           x="16.388119"
-           y="10.116123" />
+           style="fill:none;stroke:#000000;stroke-width:0.0898516;stroke-opacity:0.550201"
+           id="rect1489-7-22"
+           width="9.9773693"
+           height="9.7402544"
+           x="47.735653"
+           y="13.936197" />
+        <ellipse
+           style="fill:#000000;stroke:#000000;stroke-width:0.470452;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path2517-0-1"
+           cx="53.179123"
+           cy="16.848684"
+           rx="0.67366844"
+           ry="0.8925364" />
+      </g>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.0223529;stroke-opacity:0"
+         id="rect1333-8-2"
+         width="2.643707"
+         height="2.7053967"
+         x="9.8994923"
+         y="12.409683" />
+      <g
+         id="g1652-0"
+         transform="rotate(-90,14.744664,17.695412)">
+        <path
+           style="fill:#ffff00;fill-rule:evenodd;stroke:#000000;stroke-width:0.301;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path55-8-4-2-2"
+           sodipodi:type="arc"
+           sodipodi:cx="19.073141"
+           sodipodi:cy="13.411222"
+           sodipodi:rx="1.7062066"
+           sodipodi:ry="1.6652402"
+           sodipodi:start="0.6981317"
+           sodipodi:end="6.2482787"
+           sodipodi:arc-type="slice"
+           d="m 20.380171,14.481618 a 1.7062066,1.6652402 0 0 1 -2.147206,0.378956 1.7062066,1.6652402 0 0 1 -0.773074,-1.991501 1.7062066,1.6652402 0 0 1 1.865443,-1.104799 1.7062066,1.6652402 0 0 1 1.452974,1.588832 l -1.705167,0.05812 z" />
         <rect
-           style="fill:none;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-           id="rect1225-5"
-           width="29.539078"
-           height="28.527468"
-           x="19.8276"
-           y="14.971862" />
-        <rect
-           style="fill:none;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-           id="rect1329-8"
-           width="7.6882539"
-           height="4.8557391"
-           x="16.388119"
-           y="5.2603836" />
-        <rect
-           style="fill:none;stroke:none;stroke-width:0.264583;stroke-opacity:1"
-           id="rect1331-7"
-           width="22.053148"
-           height="26.099598"
-           x="15.174185"
-           y="15.578829" />
-        <rect
-           style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:0"
-           id="rect1333-8"
-           width="30.955334"
-           height="32.371593"
-           x="21.850826"
-           y="19.018312" />
+           style="fill:none;stroke:#000000;stroke-width:0.0380616;stroke-opacity:0.550201"
+           id="rect1489-4-2-1-8"
+           width="4.2269893"
+           height="4.1254988"
+           x="16.95965"
+           y="11.348474" />
+        <ellipse
+           style="fill:#000000;stroke:#000000;stroke-width:0.199286;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path2517-04-1-3-2"
+           cx="19.265816"
+           cy="12.582062"
+           rx="0.28540483"
+           ry="0.3780351" />
+      </g>
+      <g
+         id="g1824"
+         transform="translate(-3.1098372,-0.18735565)">
         <g
-           id="g2728-3"
-           inkscape:export-filename="C:\Users\Diego\Documents\Milena\Estudios\informaticaii_la_revancha_del_regreso\laboratorio\practica5\practica5\PACMAN\imagen\pacman1.png"
-           inkscape:export-xdpi="96"
-           inkscape:export-ydpi="96"
-           transform="matrix(2.3596158,0,0,2.3534097,-72.017747,-12.249428)">
+           id="g948-0-1"
+           transform="matrix(0,-0.4236577,0.42355146,0,17.981362,35.891358)">
           <path
              style="fill:#ffff00;fill-rule:evenodd;stroke:#000000;stroke-width:0.301;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-             id="path55-8"
+             id="path55-6-9-8"
              sodipodi:type="arc"
-             sodipodi:cx="43.352516"
-             sodipodi:cy="18.378319"
-             sodipodi:rx="8.4666662"
-             sodipodi:ry="8.4666662"
+             sodipodi:cx="52.724335"
+             sodipodi:cy="18.806324"
+             sodipodi:rx="4.0273232"
+             sodipodi:ry="3.9316123"
+             sodipodi:start="0.34906585"
+             sodipodi:end="6.2482787"
+             sodipodi:arc-type="slice"
+             d="m 56.508781,20.151015 a 4.0273232,3.9316123 0 0 1 -4.792807,2.46169 4.0273232,3.9316123 0 0 1 -2.96938,-4.421421 4.0273232,3.9316123 0 0 1 4.223603,-3.309239 4.0273232,3.9316123 0 0 1 3.779008,3.787068 l -4.02487,0.137211 z" />
+          <rect
+             style="fill:none;stroke:#000000;stroke-width:0.0898516;stroke-opacity:0.550201"
+             id="rect1489-7-2-7"
+             width="9.9773693"
+             height="9.7402544"
+             x="47.735653"
+             y="13.936197" />
+          <ellipse
+             style="fill:#000000;stroke:#000000;stroke-width:0.470452;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="path2517-0-3-7"
+             cx="53.179123"
+             cy="16.848684"
+             rx="0.67366844"
+             ry="0.8925364" />
+        </g>
+        <g
+           id="g1652"
+           transform="rotate(-90,20.518759,12.108672)">
+          <path
+             style="fill:#ffff00;fill-rule:evenodd;stroke:#000000;stroke-width:0.301;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="path55-8-4-2"
+             sodipodi:type="arc"
+             sodipodi:cx="19.073141"
+             sodipodi:cy="13.411222"
+             sodipodi:rx="1.7062066"
+             sodipodi:ry="1.6652402"
              sodipodi:start="0.6981317"
              sodipodi:end="6.2482787"
              sodipodi:arc-type="slice"
-             d="M 49.838359,23.820587 A 8.4666662,8.4666662 0 0 1 39.18333,25.74733 8.4666662,8.4666662 0 0 1 35.347126,15.621842 a 8.4666662,8.4666662 0 0 1 9.256843,-5.61719 8.4666662,8.4666662 0 0 1 7.210056,8.078184 l -8.461509,0.295483 z" />
+             d="m 20.380171,14.481618 a 1.7062066,1.6652402 0 0 1 -2.147206,0.378956 1.7062066,1.6652402 0 0 1 -0.773074,-1.991501 1.7062066,1.6652402 0 0 1 1.865443,-1.104799 1.7062066,1.6652402 0 0 1 1.452974,1.588832 l -1.705167,0.05812 z" />
           <rect
-             style="fill:none;stroke:#000000;stroke-width:0.191181;stroke-opacity:0.550201"
-             id="rect1489-4"
-             width="20.975485"
-             height="20.975487"
-             x="32.864773"
-             y="7.8905764" />
+             style="fill:none;stroke:#000000;stroke-width:0.0380616;stroke-opacity:0.550201"
+             id="rect1489-4-2-1"
+             width="4.2269893"
+             height="4.1254988"
+             x="16.95965"
+             y="11.348474" />
           <ellipse
-             style="fill:#000000;stroke:#000000;stroke-width:1.001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-             id="path2517-04"
-             cx="44.30862"
-             cy="14.162573"
-             rx="1.4162574"
-             ry="1.9220634" />
+             style="fill:#000000;stroke:#000000;stroke-width:0.199286;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="path2517-04-1-3"
+             cx="19.265816"
+             cy="12.582062"
+             rx="0.28540483"
+             ry="0.3780351" />
         </g>
         <g
-           id="g2728-8-0"
-           inkscape:export-filename="C:\Users\Diego\Documents\Milena\Estudios\informaticaii_la_revancha_del_regreso\laboratorio\practica5\practica5\PACMAN\imagen\pacman1.png"
-           inkscape:export-xdpi="96"
-           inkscape:export-ydpi="96"
-           transform="matrix(2.3596158,0,0,2.3534097,-22.523666,-12.249428)">
+           id="g1647"
+           transform="rotate(-90,16.342514,12.057926)">
           <path
              style="fill:#ffff00;fill-rule:evenodd;stroke:#000000;stroke-width:0.301;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-             id="path55-6-6"
+             id="path55-6-6-9"
              sodipodi:type="arc"
-             sodipodi:cx="43.352516"
-             sodipodi:cy="18.378319"
-             sodipodi:rx="8.4666662"
-             sodipodi:ry="8.4666662"
+             sodipodi:cx="14.846154"
+             sodipodi:cy="13.411222"
+             sodipodi:rx="1.7062066"
+             sodipodi:ry="1.6652402"
              sodipodi:start="1.3962634"
              sodipodi:end="6.2482787"
              sodipodi:arc-type="slice"
-             d="m 44.822737,26.716357 a 8.4666662,8.4666662 0 0 1 -8.765347,-4.04088 8.4666662,8.4666662 0 0 1 0.715291,-9.625404 8.4666662,8.4666662 0 0 1 9.266348,-2.700894 8.4666662,8.4666662 0 0 1 5.774996,7.733657 l -8.461509,0.295483 z" />
+             d="m 15.142434,15.051164 a 1.7062066,1.6652402 0 0 1 -1.766397,-0.794768 1.7062066,1.6652402 0 0 1 0.144146,-1.893143 1.7062066,1.6652402 0 0 1 1.867358,-0.531217 1.7062066,1.6652402 0 0 1 1.16378,1.52107 l -1.705167,0.05812 z" />
           <rect
-             style="fill:none;stroke:#000000;stroke-width:0.191181;stroke-opacity:0.550201"
-             id="rect1489-7-5"
-             width="20.975485"
-             height="20.975487"
-             x="32.864773"
-             y="7.8905764" />
-          <ellipse
-             style="fill:#000000;stroke:#000000;stroke-width:1.001;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-             id="path2517-0-9"
-             cx="44.30862"
-             cy="14.162573"
-             rx="1.4162574"
-             ry="1.9220634" />
+             style="fill:none;stroke:#000000;stroke-width:0.0380616;stroke-opacity:0.550201"
+             id="rect1489-7-5-4"
+             width="4.2269893"
+             height="4.1254988"
+             x="12.732659"
+             y="11.348474" />
+          <g
+             id="g1641">
+            <ellipse
+               style="fill:#000000;stroke:#000000;stroke-width:0.199286;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               id="path2517-0-9-3"
+               cx="15.038829"
+               cy="12.582062"
+               rx="0.28540483"
+               ry="0.3780351" />
+          </g>
         </g>
       </g>
+    </g>
+    <g
+       id="g1664-6"
+       transform="matrix(0,1.0034413,1.0202704,0,-11.523804,12.620936)"
+       inkscape:export-filename="C:\Users\Diego\Documents\Milena\Estudios\informaticaii_la_revancha_del_regreso\laboratorio\practica5\practica5\PACMAN\imagen\pacman7.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <rect
+         style="fill:none;stroke:none;stroke-width:0.0223529;stroke-opacity:1"
+         id="rect1223-5-5"
+         width="2.5054741"
+         height="2.2488608"
+         x="0.9789753"
+         y="11.665699" />
+      <rect
+         style="fill:none;stroke:none;stroke-width:0.0223529;stroke-opacity:1"
+         id="rect1225-6-2"
+         width="2.5227532"
+         height="2.384131"
+         x="1.2727207"
+         y="12.071509" />
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.0223529;stroke-opacity:0"
+         id="rect1333-85-1"
+         width="2.643707"
+         height="2.7053967"
+         x="1.4455121"
+         y="12.409683" />
+      <g
+         id="g1590-7">
+        <path
+           style="fill:#ffff00;fill-rule:evenodd;stroke:#000000;stroke-width:0.301;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path55-9-0"
+           sodipodi:type="arc"
+           sodipodi:cx="2.1651859"
+           sodipodi:cy="13.411222"
+           sodipodi:rx="1.7062066"
+           sodipodi:ry="1.6652402"
+           sodipodi:start="0.034906585"
+           sodipodi:end="6.2482787"
+           sodipodi:arc-type="slice"
+           d="m 3.8703531,13.469339 a 1.7062066,1.6652402 0 0 1 -1.7349446,1.60687 1.7062066,1.6652402 0 0 1 -1.67642913,-1.664987 1.7062066,1.6652402 0 0 1 1.67642913,-1.664986 1.7062066,1.6652402 0 0 1 1.7349446,1.60687 l -1.7051672,0.05812 z" />
+      </g>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.0380616;stroke-opacity:0.550201"
+         id="rect1489-5-6"
+         width="4.2269893"
+         height="4.1254988"
+         x="-4.2786803"
+         y="-15.473972"
+         transform="scale(-1)" />
+      <g
+         id="g1595-0">
+        <rect
+           style="fill:none;stroke:none;stroke-width:0.0223529;stroke-opacity:1"
+           id="rect1329-1-3"
+           width="0.65660709"
+           height="0.40580952"
+           x="0.9789753"
+           y="11.25989" />
+        <rect
+           style="fill:none;stroke:none;stroke-width:0.0223529;stroke-opacity:1"
+           id="rect1331-03-3"
+           width="1.8834254"
+           height="2.1812263"
+           x="0.87530082"
+           y="12.122235" />
+        <ellipse
+           style="fill:#000000;stroke:#000000;stroke-width:0.199286;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path2517-7-2"
+           cx="2.3578603"
+           cy="12.582062"
+           rx="0.28540483"
+           ry="0.3780351" />
+      </g>
+    </g>
+    <g
+       id="g948-5-4"
+       transform="matrix(0,0.42511562,0.43213702,0,-1.7585153,-7.6203693)"
+       inkscape:export-filename="C:\Users\Diego\Documents\Milena\Estudios\informaticaii_la_revancha_del_regreso\laboratorio\practica5\practica5\PACMAN\imagen\pacman7.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <path
+         style="fill:#ffff00;fill-rule:evenodd;stroke:#000000;stroke-width:0.301;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path55-6-3-3"
+         sodipodi:type="arc"
+         sodipodi:cx="52.724335"
+         sodipodi:cy="18.806324"
+         sodipodi:rx="4.0273232"
+         sodipodi:ry="3.9316123"
+         sodipodi:start="0.34906585"
+         sodipodi:end="6.2482787"
+         sodipodi:arc-type="slice"
+         d="m 56.508781,20.151015 a 4.0273232,3.9316123 0 0 1 -4.792807,2.46169 4.0273232,3.9316123 0 0 1 -2.96938,-4.421421 4.0273232,3.9316123 0 0 1 4.223603,-3.309239 4.0273232,3.9316123 0 0 1 3.779008,3.787068 l -4.02487,0.137211 z" />
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.0898516;stroke-opacity:0.550201"
+         id="rect1489-7-22-3"
+         width="9.9773693"
+         height="9.7402544"
+         x="47.735653"
+         y="13.936197" />
+      <ellipse
+         style="fill:#000000;stroke:#000000;stroke-width:0.470452;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2517-0-1-2"
+         cx="53.179123"
+         cy="16.848684"
+         rx="0.67366844"
+         ry="0.8925364" />
+    </g>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.0226172;stroke-opacity:0"
+       id="rect1333-8-2-3"
+       width="2.6972961"
+       height="2.7147069"
+       x="10.005163"
+       y="-15.754112"
+       transform="scale(1,-1)"
+       inkscape:export-filename="C:\Users\Diego\Documents\Milena\Estudios\informaticaii_la_revancha_del_regreso\laboratorio\practica5\practica5\PACMAN\imagen\pacman7.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <g
+       id="g1652-0-3"
+       transform="matrix(0,1.0034413,1.0202704,0,-3.1055575,-4.34521)"
+       inkscape:export-filename="C:\Users\Diego\Documents\Milena\Estudios\informaticaii_la_revancha_del_regreso\laboratorio\practica5\practica5\PACMAN\imagen\pacman7.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <path
+         style="fill:#ffff00;fill-rule:evenodd;stroke:#000000;stroke-width:0.301;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path55-8-4-2-2-3"
+         sodipodi:type="arc"
+         sodipodi:cx="19.073141"
+         sodipodi:cy="13.411222"
+         sodipodi:rx="1.7062066"
+         sodipodi:ry="1.6652402"
+         sodipodi:start="0.6981317"
+         sodipodi:end="6.2482787"
+         sodipodi:arc-type="slice"
+         d="m 20.380171,14.481618 a 1.7062066,1.6652402 0 0 1 -2.147206,0.378956 1.7062066,1.6652402 0 0 1 -0.773074,-1.991501 1.7062066,1.6652402 0 0 1 1.865443,-1.104799 1.7062066,1.6652402 0 0 1 1.452974,1.588832 l -1.705167,0.05812 z" />
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.0380616;stroke-opacity:0.550201"
+         id="rect1489-4-2-1-8-0"
+         width="4.2269893"
+         height="4.1254988"
+         x="16.95965"
+         y="11.348474" />
+      <ellipse
+         style="fill:#000000;stroke:#000000;stroke-width:0.199286;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2517-04-1-3-2-0"
+         cx="19.265816"
+         cy="12.582062"
+         rx="0.28540483"
+         ry="0.3780351" />
+    </g>
+    <g
+       id="g1824-8"
+       transform="matrix(1.0202704,0,0,-1.0034413,-3.2678697,28.394502)"
+       inkscape:export-filename="C:\Users\Diego\Documents\Milena\Estudios\informaticaii_la_revancha_del_regreso\laboratorio\practica5\practica5\PACMAN\imagen\pacman7.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <g
+         id="g948-0-1-1"
+         transform="matrix(0,-0.4236577,0.42355146,0,17.981362,35.891358)">
+        <path
+           style="fill:#ffff00;fill-rule:evenodd;stroke:#000000;stroke-width:0.301;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path55-6-9-8-8"
+           sodipodi:type="arc"
+           sodipodi:cx="52.724335"
+           sodipodi:cy="18.806324"
+           sodipodi:rx="4.0273232"
+           sodipodi:ry="3.9316123"
+           sodipodi:start="0.34906585"
+           sodipodi:end="6.2482787"
+           sodipodi:arc-type="slice"
+           d="m 56.508781,20.151015 a 4.0273232,3.9316123 0 0 1 -4.792807,2.46169 4.0273232,3.9316123 0 0 1 -2.96938,-4.421421 4.0273232,3.9316123 0 0 1 4.223603,-3.309239 4.0273232,3.9316123 0 0 1 3.779008,3.787068 l -4.02487,0.137211 z" />
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.0898516;stroke-opacity:0.550201"
+           id="rect1489-7-2-7-8"
+           width="9.9773693"
+           height="9.7402544"
+           x="47.735653"
+           y="13.936197" />
+        <ellipse
+           style="fill:#000000;stroke:#000000;stroke-width:0.470452;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path2517-0-3-7-3"
+           cx="53.179123"
+           cy="16.848684"
+           rx="0.67366844"
+           ry="0.8925364" />
+      </g>
+      <g
+         id="g1652-7"
+         transform="rotate(-90,20.518759,12.108672)">
+        <path
+           style="fill:#ffff00;fill-rule:evenodd;stroke:#000000;stroke-width:0.301;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path55-8-4-2-4"
+           sodipodi:type="arc"
+           sodipodi:cx="19.073141"
+           sodipodi:cy="13.411222"
+           sodipodi:rx="1.7062066"
+           sodipodi:ry="1.6652402"
+           sodipodi:start="0.6981317"
+           sodipodi:end="6.2482787"
+           sodipodi:arc-type="slice"
+           d="m 20.380171,14.481618 a 1.7062066,1.6652402 0 0 1 -2.147206,0.378956 1.7062066,1.6652402 0 0 1 -0.773074,-1.991501 1.7062066,1.6652402 0 0 1 1.865443,-1.104799 1.7062066,1.6652402 0 0 1 1.452974,1.588832 l -1.705167,0.05812 z" />
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.0380616;stroke-opacity:0.550201"
+           id="rect1489-4-2-1-85"
+           width="4.2269893"
+           height="4.1254988"
+           x="16.95965"
+           y="11.348474" />
+        <ellipse
+           style="fill:#000000;stroke:#000000;stroke-width:0.199286;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path2517-04-1-3-9"
+           cx="19.265816"
+           cy="12.582062"
+           rx="0.28540483"
+           ry="0.3780351" />
+      </g>
+      <g
+         id="g1647-8"
+         transform="rotate(-90,16.342514,12.057926)">
+        <path
+           style="fill:#ffff00;fill-rule:evenodd;stroke:#000000;stroke-width:0.301;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path55-6-6-9-9"
+           sodipodi:type="arc"
+           sodipodi:cx="14.846154"
+           sodipodi:cy="13.411222"
+           sodipodi:rx="1.7062066"
+           sodipodi:ry="1.6652402"
+           sodipodi:start="1.3962634"
+           sodipodi:end="6.2482787"
+           sodipodi:arc-type="slice"
+           d="m 15.142434,15.051164 a 1.7062066,1.6652402 0 0 1 -1.766397,-0.794768 1.7062066,1.6652402 0 0 1 0.144146,-1.893143 1.7062066,1.6652402 0 0 1 1.867358,-0.531217 1.7062066,1.6652402 0 0 1 1.16378,1.52107 l -1.705167,0.05812 z" />
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.0380616;stroke-opacity:0.550201"
+           id="rect1489-7-5-4-0"
+           width="4.2269893"
+           height="4.1254988"
+           x="12.732659"
+           y="11.348474" />
+        <g
+           id="g1641-1">
+          <ellipse
+             style="fill:#000000;stroke:#000000;stroke-width:0.199286;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="path2517-0-9-3-0"
+             cx="15.038829"
+             cy="12.582062"
+             rx="0.28540483"
+             ry="0.3780351" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g1339"
+       transform="matrix(0.99859288,0,0,1.0109942,-23.373922,-7.1894098)"
+       inkscape:export-filename="C:\Users\Diego\Documents\Milena\Estudios\informaticaii_la_revancha_del_regreso\laboratorio\practica5\practica5\PACMAN\imagen\pacman7.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.0223529;stroke-opacity:0"
+         id="rect1333-9"
+         width="2.643707"
+         height="2.7053967"
+         x="-26.259008"
+         y="12.38652"
+         transform="scale(-1,1)" />
+      <g
+         id="g1312">
+        <path
+           style="fill:#ffff00;fill-rule:evenodd;stroke:#000000;stroke-width:0.301;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path55-66"
+           sodipodi:type="arc"
+           sodipodi:cx="-25.539335"
+           sodipodi:cy="13.38806"
+           sodipodi:rx="1.7062066"
+           sodipodi:ry="1.6652402"
+           sodipodi:start="0.034906585"
+           sodipodi:end="6.2482787"
+           sodipodi:arc-type="slice"
+           d="m -23.834168,13.446176 a 1.7062066,1.6652402 0 0 1 -1.734945,1.60687 1.7062066,1.6652402 0 0 1 -1.676429,-1.664986 1.7062066,1.6652402 0 0 1 1.676429,-1.664987 1.7062066,1.6652402 0 0 1 1.734945,1.606871 l -1.705167,0.05812 z"
+           transform="scale(-1,1)" />
+      </g>
+      <g
+         id="g1324">
+        <g
+           id="g1302">
+          <rect
+             style="fill:none;stroke:#000000;stroke-width:0.0380616;stroke-opacity:0.550201"
+             id="rect1489-0"
+             width="4.2269893"
+             height="4.1254988"
+             x="-27.65283"
+             y="11.325311"
+             transform="scale(-1,1)" />
+        </g>
+      </g>
+      <g
+         id="g1320">
+        <g
+           id="g1309">
+          <rect
+             style="fill:none;stroke:none;stroke-width:0.0223529;stroke-opacity:1"
+             id="rect1223-35"
+             width="2.5054741"
+             height="2.2488608"
+             x="-26.725546"
+             y="11.642536"
+             transform="scale(-1,1)" />
+          <rect
+             style="fill:none;stroke:none;stroke-width:0.0223529;stroke-opacity:1"
+             id="rect1225-51"
+             width="2.5227532"
+             height="2.384131"
+             x="-26.431801"
+             y="12.048347"
+             transform="scale(-1,1)" />
+          <rect
+             style="fill:none;stroke:none;stroke-width:0.0223529;stroke-opacity:1"
+             id="rect1329-3"
+             width="0.65660709"
+             height="0.40580952"
+             x="-26.725546"
+             y="11.236727"
+             transform="scale(-1,1)" />
+          <rect
+             style="fill:none;stroke:none;stroke-width:0.0223529;stroke-opacity:1"
+             id="rect1331-0"
+             width="1.8834254"
+             height="2.1812263"
+             x="-26.82922"
+             y="12.099072"
+             transform="scale(-1,1)" />
+          <ellipse
+             style="fill:#000000;stroke:#000000;stroke-width:0.199286;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="path2517-4"
+             cx="-25.346661"
+             cy="12.558899"
+             rx="0.28540483"
+             ry="0.3780351"
+             transform="scale(-1,1)" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g948-4"
+       transform="matrix(-0.42306156,0,0,0.42820806,45.540324,-1.7071787)"
+       inkscape:export-filename="C:\Users\Diego\Documents\Milena\Estudios\informaticaii_la_revancha_del_regreso\laboratorio\practica5\practica5\PACMAN\imagen\pacman7.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <path
+         style="fill:#ffff00;fill-rule:evenodd;stroke:#000000;stroke-width:0.301;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path55-6-91"
+         sodipodi:type="arc"
+         sodipodi:cx="52.724335"
+         sodipodi:cy="18.806324"
+         sodipodi:rx="4.0273232"
+         sodipodi:ry="3.9316123"
+         sodipodi:start="0.34906585"
+         sodipodi:end="6.2482787"
+         sodipodi:arc-type="slice"
+         d="m 56.508781,20.151015 a 4.0273232,3.9316123 0 0 1 -4.792807,2.46169 4.0273232,3.9316123 0 0 1 -2.96938,-4.421421 4.0273232,3.9316123 0 0 1 4.223603,-3.309239 4.0273232,3.9316123 0 0 1 3.779008,3.787068 l -4.02487,0.137211 z" />
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.0898516;stroke-opacity:0.550201"
+         id="rect1489-7-0"
+         width="9.9773693"
+         height="9.7402544"
+         x="47.735653"
+         y="13.936197" />
+      <ellipse
+         style="fill:#000000;stroke:#000000;stroke-width:0.470452;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2517-0-8"
+         cx="53.179123"
+         cy="16.848684"
+         rx="0.67366844"
+         ry="0.8925364" />
+    </g>
+    <g
+       id="g948-0-4"
+       transform="matrix(-0.42306156,0,0,0.42820806,28.656158,-1.7071793)"
+       inkscape:export-filename="C:\Users\Diego\Documents\Milena\Estudios\informaticaii_la_revancha_del_regreso\laboratorio\practica5\practica5\PACMAN\imagen\pacman7.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <path
+         style="fill:#ffff00;fill-rule:evenodd;stroke:#000000;stroke-width:0.301;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path55-6-9-7"
+         sodipodi:type="arc"
+         sodipodi:cx="52.724335"
+         sodipodi:cy="18.806324"
+         sodipodi:rx="4.0273232"
+         sodipodi:ry="3.9316123"
+         sodipodi:start="0.34906585"
+         sodipodi:end="6.2482787"
+         sodipodi:arc-type="slice"
+         d="m 56.508781,20.151015 a 4.0273232,3.9316123 0 0 1 -4.792807,2.46169 4.0273232,3.9316123 0 0 1 -2.96938,-4.421421 4.0273232,3.9316123 0 0 1 4.223603,-3.309239 4.0273232,3.9316123 0 0 1 3.779008,3.787068 l -4.02487,0.137211 z" />
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.0898516;stroke-opacity:0.550201"
+         id="rect1489-7-2-0"
+         width="9.9773693"
+         height="9.7402544"
+         x="47.735653"
+         y="13.936197" />
+      <ellipse
+         style="fill:#000000;stroke:#000000;stroke-width:0.470452;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2517-0-3-6"
+         cx="53.179123"
+         cy="16.848684"
+         rx="0.67366844"
+         ry="0.8925364" />
+    </g>
+    <g
+       id="g1385"
+       transform="matrix(0.99859288,0,0,1.0109942,1.9523292,-7.1894098)"
+       inkscape:export-filename="C:\Users\Diego\Documents\Milena\Estudios\informaticaii_la_revancha_del_regreso\laboratorio\practica5\practica5\PACMAN\imagen\pacman7.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <rect
+         style="fill:none;stroke:none;stroke-width:0.0223529;stroke-opacity:1"
+         id="rect1223-3-1"
+         width="2.5054741"
+         height="2.2488608"
+         x="-18.271564"
+         y="11.642536"
+         transform="scale(-1,1)" />
+      <rect
+         style="fill:none;stroke:none;stroke-width:0.0223529;stroke-opacity:1"
+         id="rect1225-5-6"
+         width="2.5227532"
+         height="2.384131"
+         x="-17.977821"
+         y="12.048347"
+         transform="scale(-1,1)" />
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.0223529;stroke-opacity:0"
+         id="rect1333-8-1"
+         width="2.643707"
+         height="2.7053967"
+         x="-17.805029"
+         y="12.38652"
+         transform="scale(-1,1)" />
+      <g
+         id="g1342">
+        <path
+           style="fill:#ffff00;fill-rule:evenodd;stroke:#000000;stroke-width:0.301;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path55-8-0"
+           sodipodi:type="arc"
+           sodipodi:cx="-17.085356"
+           sodipodi:cy="13.38806"
+           sodipodi:rx="1.7062066"
+           sodipodi:ry="1.6652402"
+           sodipodi:start="0.6981317"
+           sodipodi:end="6.2482787"
+           sodipodi:arc-type="slice"
+           d="m -15.778326,14.458455 a 1.7062066,1.6652402 0 0 1 -2.147206,0.378956 1.7062066,1.6652402 0 0 1 -0.773074,-1.991501 1.7062066,1.6652402 0 0 1 1.865444,-1.104799 1.7062066,1.6652402 0 0 1 1.452973,1.588833 l -1.705167,0.05812 z"
+           transform="scale(-1,1)" />
+      </g>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.0380616;stroke-opacity:0.550201"
+         id="rect1489-4-4"
+         width="4.2269893"
+         height="4.1254988"
+         x="-19.198851"
+         y="11.325311"
+         transform="scale(-1,1)" />
+      <g
+         id="g1347">
+        <rect
+           style="fill:none;stroke:none;stroke-width:0.0223529;stroke-opacity:1"
+           id="rect1329-8-5"
+           width="0.65660709"
+           height="0.40580952"
+           x="-18.271564"
+           y="11.236727"
+           transform="scale(-1,1)" />
+        <rect
+           style="fill:none;stroke:none;stroke-width:0.0223529;stroke-opacity:1"
+           id="rect1331-7-0"
+           width="1.8834254"
+           height="2.1812263"
+           x="-18.375242"
+           y="12.099072"
+           transform="scale(-1,1)" />
+        <ellipse
+           style="fill:#000000;stroke:#000000;stroke-width:0.199286;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path2517-04-7"
+           cx="-16.892681"
+           cy="12.558899"
+           rx="0.28540483"
+           ry="0.3780351"
+           transform="scale(-1,1)" />
+      </g>
+      <g
+         id="g1357">
+        <path
+           style="fill:#ffff00;fill-rule:evenodd;stroke:#000000;stroke-width:0.301;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path55-8-4-3"
+           sodipodi:type="arc"
+           sodipodi:cx="-8.6313791"
+           sodipodi:cy="13.38806"
+           sodipodi:rx="1.7062066"
+           sodipodi:ry="1.6652402"
+           sodipodi:start="0.6981317"
+           sodipodi:end="6.2482787"
+           sodipodi:arc-type="slice"
+           d="m -7.3243491,14.458455 a 1.7062066,1.6652402 0 0 1 -2.1472063,0.378956 1.7062066,1.6652402 0 0 1 -0.7730736,-1.991501 1.7062066,1.6652402 0 0 1 1.8654432,-1.104799 1.7062066,1.6652402 0 0 1 1.4529739,1.588833 l -1.7051672,0.05812 z"
+           transform="scale(-1,1)" />
+      </g>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.0380616;stroke-opacity:0.550201"
+         id="rect1489-4-2-3"
+         width="4.2269893"
+         height="4.1254988"
+         x="-10.744871"
+         y="11.325311"
+         transform="scale(-1,1)" />
+      <g
+         id="g1365">
+        <ellipse
+           style="fill:#000000;stroke:#000000;stroke-width:0.199286;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path2517-04-1-0"
+           cx="-8.4387045"
+           cy="12.558899"
+           rx="0.28540483"
+           ry="0.3780351"
+           transform="scale(-1,1)" />
+      </g>
+      <path
+         style="fill:#ffff00;fill-rule:evenodd;stroke:#000000;stroke-width:0.301;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path55-6-6-3"
+         sodipodi:type="arc"
+         sodipodi:cx="-12.858366"
+         sodipodi:cy="13.38806"
+         sodipodi:rx="1.7062066"
+         sodipodi:ry="1.6652402"
+         sodipodi:start="1.3962634"
+         sodipodi:end="6.2482787"
+         sodipodi:arc-type="slice"
+         d="m -12.562086,15.028001 a 1.7062066,1.6652402 0 0 1 -1.766397,-0.794768 1.7062066,1.6652402 0 0 1 0.144145,-1.893143 1.7062066,1.6652402 0 0 1 1.867359,-0.531217 1.7062066,1.6652402 0 0 1 1.16378,1.521071 l -1.705167,0.05812 z"
+         transform="scale(-1,1)" />
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.0380616;stroke-opacity:0.550201"
+         id="rect1489-7-5-9"
+         width="4.2269893"
+         height="4.1254988"
+         x="-14.971862"
+         y="11.325311"
+         transform="scale(-1,1)" />
+      <ellipse
+         style="fill:#000000;stroke:#000000;stroke-width:0.199286;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2517-0-9-4"
+         cx="-12.665691"
+         cy="12.558899"
+         rx="0.28540483"
+         ry="0.3780351"
+         transform="scale(-1,1)" />
     </g>
   </g>
 </svg>
